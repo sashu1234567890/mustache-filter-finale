@@ -1,0 +1,29 @@
+h3 {
+    font-size: 25px !important
+}
+
+.btn-success:hover {
+    background-color: darkturquoise;
+}
+
+canvas {
+    animation-name: animate_face;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_face {
+    from {
+        box-shadow: 1px 1px 30px rgb(195, 209, 0);
+    }
+
+    to {
+        box-shadow: 1px 1px 30px rgb(0, 209, 52);
+    }
+}
+
+body
+{
+    background-size: cover;
+    background-position: center;
+}
